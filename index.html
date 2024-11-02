@@ -108,13 +108,22 @@
     </section>
     <section id="contact">
         <h2>Get in Touch</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <input type="submit" value="Submit">
-        </form>
+        <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mldejpdj"
+  method="POST">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+        
     </section>
     <footer>
         <p>&copy; 2024 Shadman Shahriar Dhruba</p>
